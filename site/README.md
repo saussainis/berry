@@ -1,6 +1,6 @@
 # northstarpartners.eu – reprezentacinis puslapis
 
-Statinis vieno puslapio front-end (HTML + CSS + JS, be build žingsnio). LT / EN kalbos perjungimas.
+Statinis vieno puslapio front-end (HTML + CSS + JS, be build žingsnio). LT / EN / DE kalbos perjungimas (numatytoji kalba parenkama pagal naršyklę, kitu atveju EN).
 Tematika: AI sprendimai verslui, „company brain“ konfigūravimas, AI agentai, integracijos ir mokymai.
 
 Peržiūra lokaliai:

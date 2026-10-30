@@ -3,7 +3,7 @@
 
   const CONTACT_EMAIL = "info@northstarpartners.eu";
 
-  // English strings. Lithuanian is the source text in index.html and is captured at load.
+  // English and German strings. Lithuanian is the source text in index.html and is captured at load.
   const EN = {
     skip: "Skip to content",
     "nav.brain": "Company brain", "nav.services": "Services", "nav.process": "Process", "nav.usecases": "Use cases", "nav.contact": "Contact us",
@@ -54,6 +54,56 @@
     "footer.rights": "All rights reserved.", "footer.top": "Back to top \u2191",
   };
 
+  const DE = {
+    skip: "Zum Inhalt springen",
+    "nav.brain": "Company Brain", "nav.services": "Leistungen", "nav.process": "Vorgehen", "nav.usecases": "Einsatzbereiche", "nav.contact": "Kontakt",
+    "hero.eyebrow": "KI-L\u00f6sungen f\u00fcr Unternehmen",
+    "hero.title": "Das Wissen Ihres Unternehmens \u2013 mit Antworten, wenn Sie sie brauchen.",
+    "hero.lead": "Wir konfigurieren ein \u201eCompany Brain\u201c \u2013 ein spezialisiertes KI-System auf Basis Ihrer Dokumente, Prozesse und Systeme, das Ihrem Team hilft, schneller Antworten zu finden, Entscheidungen zu treffen und Routinearbeit zu automatisieren.",
+    "hero.cta1": "Beratung vereinbaren", "hero.cta2": "Was ist ein Company Brain?",
+    "facts.1t": "Ein Ort f\u00fcr Wissen", "facts.1d": "Dokumente, Prozesse und Systeme vereint",
+    "facts.2t": "Auf Sie zugeschnitten", "facts.2d": "Ihre Branche, Begriffe und Regeln",
+    "facts.3t": "Volle Kontrolle", "facts.3d": "Zugriffsrechte, Quellen und DSGVO",
+    "brain.eyebrow": "Company Brain",
+    "brain.title": "Was Ihr Unternehmen wei\u00df, wei\u00df auch Ihre KI",
+    "brain.p1": "Unternehmenswissen ist meist verstreut: in E-Mails, auf Laufwerken, im CRM, in Wikis und in den K\u00f6pfen der Mitarbeitenden. Allgemeine KI-Tools kennen es nicht \u2013 ihre Antworten bleiben allgemein oder sind falsch.",
+    "brain.p2": "Ein Company Brain verbindet diese Quellen zu einer sicheren Wissensbasis, an die KI-Assistenten und Agenten angebunden werden. Sie antworten auf Basis Ihrer Daten, nennen ihre Quellen und sehen nur, was die Berechtigungen der jeweiligen Person erlauben.",
+    "brain.l1": "Antworten mit Quellenangaben",
+    "brain.l2": "Berechtigungen aus Ihren Systemen \u00fcbernommen",
+    "brain.l3": "Laufend aktualisiertes Wissen statt einmaligem Import",
+    "services.eyebrow": "Leistungen", "services.title": "Was wir tun",
+    "s1.t": "Company-Brain-Konfiguration", "s1.d": "Anbindung und Strukturierung von Wissensquellen sowie Anpassung des KI-Assistenten an Ihre Branche, Begriffe und Regeln.",
+    "s2.t": "KI-Agenten f\u00fcr Prozesse", "s2.d": "Spezialisierte Agenten f\u00fcr konkrete Aufgaben: Dokumente erstellen, Anfragen bearbeiten, Daten bereinigen.",
+    "s3.t": "Integrationen", "s3.d": "Anbindung an Ihre bestehenden Tools: Microsoft 365, Google Workspace, CRM, ERP, Ticket- und Dokumentensysteme.",
+    "s4.t": "Schulung & Betreuung", "s4.d": "Team-Schulungen, Nutzungsrichtlinien, Qualit\u00e4ts\u00fcberwachung und kontinuierliche Verbesserung.",
+    "process.eyebrow": "Vorgehen", "process.title": "So arbeiten wir",
+    "p1.t": "Analyse", "p1.d": "Wir erfassen Prozesse, Wissensquellen und wo KI den gr\u00f6\u00dften Nutzen bringt.",
+    "p2.t": "Architektur", "p2.d": "Wir w\u00e4hlen Modelle, Datenfl\u00fcsse sowie Sicherheits- und Zugriffsmodell.",
+    "p3.t": "Konfiguration", "p3.d": "Wir binden Quellen an und passen Assistenten und Agenten an.",
+    "p4.t": "Pilot", "p4.d": "Wir testen mit einem Team und messen die Ergebnisse.",
+    "p5.t": "Rollout", "p5.d": "Unternehmensweite Einf\u00fchrung, Schulung und Betreuung.",
+    "uc.eyebrow": "Einsatzbereiche", "uc.title": "Wo sich KI schon heute lohnt",
+    "uc.1": "Kundenservice", "uc.2": "Vertrieb & Angebote", "uc.3": "Personal & Recruiting", "uc.4": "Finanzen & Buchhaltung",
+    "uc.5": "Recht & Compliance", "uc.6": "Internes Wissen & Onboarding", "uc.7": "Projektmanagement", "uc.8": "Logistik & Betrieb",
+    "v1.t": "Datensicherheit", "v1.d": "Ihre Daten bleiben unter Ihrer Kontrolle. Wir setzen auf DSGVO-konforme L\u00f6sungen und ber\u00fccksichtigen die Anforderungen des EU AI Act.",
+    "v2.t": "Verl\u00e4ssliche Antworten", "v2.d": "Die KI st\u00fctzt sich auf Ihre Quellen, nennt sie und \u00fcberl\u00e4sst wichtige Entscheidungen dem Menschen.",
+    "v3.t": "Messbarer Nutzen", "v3.d": "Wir legen vorab fest, was gemessen wird: eingesparte Zeit, Antwortqualit\u00e4t, Prozessgeschwindigkeit.",
+    "cta.eyebrow": "Einstieg", "cta.title": "Unsicher, wo Sie anfangen sollen?",
+    "cta.p": "In einem kurzen Gespr\u00e4ch betrachten wir Ihre Prozesse und benennen 2\u20133 Bereiche, in denen sich KI und ein Company Brain am schnellsten auszahlen.",
+    "cta.btn": "Ihren Fall besprechen",
+    "contact.eyebrow": "Kontakt", "contact.title": "Erz\u00e4hlen Sie uns von Ihrem Unternehmen",
+    "contact.lead": "Wir antworten innerhalb eines Werktags.",
+    "contact.email": "E-Mail", "contact.web": "Website",
+    "form.name": "Vor- und Nachname", "form.company": "Unternehmen", "form.email": "E-Mail", "form.topic": "Thema",
+    "form.t1": "KI-Beratung", "form.t2": "Company-Brain-Einf\u00fchrung", "form.t3": "KI-Agenten & Automatisierung", "form.t4": "Sonstiges",
+    "form.msg": "Nachricht",
+    "form.consent": "Ich bin einverstanden, dass meine Daten zur Beantwortung dieser Anfrage verwendet werden.",
+    "form.send": "Anfrage senden",
+    "form.ok": "Vielen Dank! Ihr E-Mail-Programm wurde mit der vorbereiteten Nachricht ge\u00f6ffnet.",
+    "form.err": "Bitte f\u00fcllen Sie die Pflichtfelder aus und erteilen Sie Ihre Einwilligung.",
+    "footer.rights": "Alle Rechte vorbehalten.", "footer.top": "Nach oben \u2191",
+  };
+
   const LT_EXTRA = {
     "form.ok": "Ačiū! Atsidarė jūsų el. pašto programa su paruošta žinute.",
     "form.err": "Užpildykite privalomus laukus ir pažymėkite sutikimą.",
@@ -62,7 +112,7 @@
   const nodes = document.querySelectorAll("[data-i18n]");
   const LT = { ...LT_EXTRA };
   nodes.forEach((el) => { LT[el.dataset.i18n] = el.textContent; });
-  const DICT = { lt: LT, en: EN };
+  const DICT = { lt: LT, en: EN, de: DE };
 
   let lang = "lt";
   const t = (key) => DICT[lang][key] ?? LT[key] ?? key;
@@ -84,7 +134,8 @@
 
   let saved = null;
   try { saved = localStorage.getItem("nsp-lang"); } catch (_) { /* storage unavailable */ }
-  const browser = (navigator.language || "").toLowerCase().startsWith("lt") ? "lt" : "en";
+  const nav2 = (navigator.language || "").slice(0, 2).toLowerCase();
+  const browser = DICT[nav2] ? nav2 : "en";
   setLang(saved || browser);
 
   // Mobile navigation
