@@ -195,3 +195,14 @@ p { margin: 0 0 1em; }
   .cards, .steps, .form { grid-template-columns: 1fr; }
   .brand span { font-size: 1rem; }
 }
+
+/* Company brain list, LinkedIn */
+.ticks { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; }
+.ticks li { position: relative; padding-left: 30px; font-weight: 500; color: var(--ink); }
+.ticks li::before {
+  content: ""; position: absolute; left: 0; top: .35em; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f2b84b' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E") center / 12px no-repeat;
+}
+.linkedin { display: inline-flex; align-items: center; gap: 8px; }
+.linkedin svg { width: 18px; height: 18px; fill: #0a66c2; }
+.footer__links { display: flex; gap: 20px; }
