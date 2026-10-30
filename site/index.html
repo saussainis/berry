@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NorthStar Partners</title>
+  <meta name="description" content="NorthStar Partners – įmonių grupė: darbuotojų paieška, atranka ir tarptautinis įdarbinimas Lietuvoje ir Europoje.">
+  <meta property="og:title" content="NorthStar Partners">
+  <meta property="og:description" content="Darbuotojų paieška, atranka ir tarptautinis įdarbinimas.">
+  <meta property="og:url" content="https://northstarpartners.eu/">
+  <meta name="theme-color" content="#0b1d3a">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Pereiti prie turinio</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="NorthStar Partners">
+        <img src="assets/logo.svg" alt="" width="32" height="32">
+        <span>NorthStar <strong>Partners</strong></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Pagrindinė navigacija">
+        <a href="#about" data-i18n="nav.about">Apie mus</a>
+        <a href="#services" data-i18n="nav.services">Paslaugos</a>
+        <a href="#process" data-i18n="nav.process">Procesas</a>
+        <a href="#careers" data-i18n="nav.careers">Karjera</a>
+        <a href="#contact" class="btn btn--small" data-i18n="nav.contact">Susisiekti</a>
+      </nav>
+      <div class="header__tools">
+        <div class="lang" role="group" aria-label="Kalba / Language">
+          <button type="button" data-lang="lt" aria-pressed="true">LT</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Meniu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__stars" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Įmonių grupė · Lietuva ir Europa</p>
+        <h1 data-i18n="hero.title">Tinkami žmonės. Tinkamoje vietoje. Laiku.</h1>
+        <p class="lead" data-i18n="hero.lead">NorthStar Partners padeda grupės įmonėms ir partneriams rasti, atrinkti ir sklandžiai įdarbinti darbuotojus – tiek vietinėje rinkoje, tiek iš užsienio šalių.</p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn" data-i18n="hero.cta1">Reikia darbuotojų</a>
+          <a href="#careers" class="btn btn--ghost" data-i18n="hero.cta2">Ieškau darbo</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong data-i18n="facts.1t">Visas ciklas</strong><span data-i18n="facts.1d">nuo poreikio iki pirmos darbo dienos</span></li>
+          <li><strong data-i18n="facts.2t">Tarptautinis</strong><span data-i18n="facts.2d">įdarbinimas iš trečiųjų šalių</span></li>
+          <li><strong data-i18n="facts.3t">Skaidrus</strong><span data-i18n="facts.3d">procesas ir aiškūs terminai</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">Apie mus</p>
+          <h2 data-i18n="about.title">Patikimas partneris, kai verslui reikia žmonių</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="about.p1">NorthStar Partners – įmonių grupė, vienijanti kelis juridinius asmenis ir padalinius. Mūsų stiprybė – gebėjimas greitai užpildyti darbo vietas ten, kur jų labiausiai reikia, ir pasirūpinti žmonėmis visą įdarbinimo kelią.</p>
+          <p data-i18n="about.p2">Dirbame su patikimais įdarbinimo partneriais užsienyje, laikomės teisės aktų ir duomenų apsaugos reikalavimų, o kiekvieną kandidatą lydime nuo pirmo pokalbio iki darbo pradžios.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <p class="eyebrow" data-i18n="services.eyebrow">Paslaugos</p>
+        <h2 data-i18n="services.title">Ką darome</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </div>
+            <h3 data-i18n="s1.t">Paieška ir atranka</h3>
+            <p data-i18n="s1.d">Vakansijų skelbimas, kandidatų paieška, pokalbiai ir kompetencijų vertinimas pagal jūsų reikalavimus.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+            </div>
+            <h3 data-i18n="s2.t">Tarptautinis įdarbinimas</h3>
+            <p data-i18n="s2.d">Darbuotojų iš trečiųjų šalių atranka ir atvykimo organizavimas į konkrečią grupės įmonę ir padalinį.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>
+            </div>
+            <h3 data-i18n="s3.t">Dokumentai ir leidimai</h3>
+            <p data-i18n="s3.d">Vizų, leidimų gyventi ir dirbti, kvalifikacijos dokumentų tvarkymas ir galiojimo terminų kontrolė.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg>
+            </div>
+            <h3 data-i18n="s4.t">Atvykimas ir adaptacija</h3>
+            <p data-i18n="s4.d">Pagalba atvykus: pasitikimas, apgyvendinimo klausimai, įvadas į darbą ir pirmųjų savaičių palydėjimas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section" id="process">
+      <div class="container">
+        <p class="eyebrow" data-i18n="process.eyebrow">Procesas</p>
+        <h2 data-i18n="process.title">Kaip dirbame</h2>
+        <ol class="steps">
+          <li><span class="steps__n">01</span><h3 data-i18n="p1.t">Poreikis</h3><p data-i18n="p1.d">Kartu apibrėžiame pareigybę, kiekį, vietą ir terminą.</p></li>
+          <li><span class="steps__n">02</span><h3 data-i18n="p2.t">Paieška</h3><p data-i18n="p2.d">Ieškome vietinėje rinkoje ir per partnerius užsienyje.</p></li>
+          <li><span class="steps__n">03</span><h3 data-i18n="p3.t">Atranka</h3><p data-i18n="p3.d">Pokalbiai, kvalifikacijos patikra, pasiūlymas kandidatui.</p></li>
+          <li><span class="steps__n">04</span><h3 data-i18n="p4.t">Dokumentai</h3><p data-i18n="p4.d">Leidimai, vizos ir sutartys – su aiškiu žingsnių planu.</p></li>
+          <li><span class="steps__n">05</span><h3 data-i18n="p5.t">Darbo pradžia</h3><p data-i18n="p5.d">Atvykimas, įvadas ir palydėjimas pirmosiomis savaitėmis.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Sectors -->
+    <section class="section section--alt">
+      <div class="container">
+        <p class="eyebrow" data-i18n="sectors.eyebrow">Sritys</p>
+        <h2 data-i18n="sectors.title">Kur labiausiai padedame</h2>
+        <ul class="chips">
+          <li data-i18n="sec.1">Transportas ir logistika</li>
+          <li data-i18n="sec.2">Tarptautiniai vairuotojai (CE)</li>
+          <li data-i18n="sec.3">Sandėliavimas</li>
+          <li data-i18n="sec.4">Gamyba</li>
+          <li data-i18n="sec.5">Statyba</li>
+          <li data-i18n="sec.6">Paslaugos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+      <div class="container values">
+        <div class="value">
+          <h3 data-i18n="v1.t">Atitiktis teisės aktams</h3>
+          <p data-i18n="v1.d">Procesus deriname su galiojančiais migracijos ir darbo teisės reikalavimais.</p>
+        </div>
+        <div class="value">
+          <h3 data-i18n="v2.t">Duomenų apsauga</h3>
+          <p data-i18n="v2.d">Asmens duomenis tvarkome pagal BDAR – tik tiek, kiek reikia, ir tik tiems, kam reikia.</p>
+        </div>
+        <div class="value">
+          <h3 data-i18n="v3.t">Sąžiningumas žmonėms</h3>
+          <p data-i18n="v3.d">Kandidatams – aiškios sąlygos, jokių paslėptų mokesčių už įdarbinimą.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Careers -->
+    <section class="section section--dark" id="careers">
+      <div class="container split">
+        <div>
+          <p class="eyebrow" data-i18n="careers.eyebrow">Karjera</p>
+          <h2 data-i18n="careers.title">Ieškote darbo Lietuvoje?</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="careers.p">Atsiųskite savo gyvenimo aprašymą ir nurodykite, kokio darbo ieškote. Su tinkamais kandidatais susisieksime, kai atsiras jų patirtį atitinkanti pozicija.</p>
+          <a class="btn" href="mailto:careers@northstarpartners.eu?subject=CV" data-i18n="careers.cta">Siųsti CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container split">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Kontaktai</p>
+          <h2 data-i18n="contact.title">Papasakokite, ko jums reikia</h2>
+          <p class="muted" data-i18n="contact.lead">Atsakysime per vieną darbo dieną.</p>
+          <ul class="contact-list">
+            <li><span data-i18n="contact.email">El. paštas</span><a href="mailto:info@northstarpartners.eu">info@northstarpartners.eu</a></li>
+            <li><span data-i18n="contact.web">Svetainė</span><a href="https://northstarpartners.eu">northstarpartners.eu</a></li>
+          </ul>
+        </div>
+        <form class="form" id="contact-form" novalidate>
+          <label><span data-i18n="form.name">Vardas, pavardė</span><input name="name" required autocomplete="name"></label>
+          <label><span data-i18n="form.company">Įmonė</span><input name="company" autocomplete="organization"></label>
+          <label><span data-i18n="form.email">El. paštas</span><input name="email" type="email" required autocomplete="email"></label>
+          <label><span data-i18n="form.topic">Tema</span>
+            <select name="topic">
+              <option value="employer" data-i18n="form.t1">Reikia darbuotojų</option>
+              <option value="candidate" data-i18n="form.t2">Ieškau darbo</option>
+              <option value="partner" data-i18n="form.t3">Partnerystė</option>
+              <option value="other" data-i18n="form.t4">Kita</option>
+            </select>
+          </label>
+          <label class="form__full"><span data-i18n="form.msg">Žinutė</span><textarea name="message" rows="5" required></textarea></label>
+          <label class="form__check form__full"><input type="checkbox" name="consent" required><span data-i18n="form.consent">Sutinku, kad mano duomenys būtų naudojami atsakyti į šią užklausą.</span></label>
+          <button class="btn form__full" type="submit" data-i18n="form.send">Siųsti užklausą</button>
+          <p class="form__status form__full" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand brand--light" href="#top">
+        <img src="assets/logo.svg" alt="" width="28" height="28">
+        <span>NorthStar <strong>Partners</strong></span>
+      </a>
+      <p>© <span id="year">2026</span> NorthStar Partners. <span data-i18n="footer.rights">Visos teisės saugomos.</span></p>
+      <a href="#top" data-i18n="footer.top">Į viršų ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
