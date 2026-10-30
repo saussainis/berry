@@ -12,7 +12,7 @@ cd site && python3 -m http.server 8080   # http://localhost:8080
 Prieš publikuojant patikrinti / pakeisti:
 
 - kontaktinį el. paštą (`info@northstarpartners.eu`) – `index.html`, `script.js` (`CONTACT_EMAIL`);
-- vadovo nuotrauką: įkelti `site/assets/algirdas-petrauskas.jpg` (kvadratinė, ~600×600 px); kol failo nėra, rodomi inicialai „AP“. Patikrinti trumpą aprašymą (LT/EN/DE);
+- vadovo trumpą aprašymą (LT/EN/DE);
 - paslaugų, panaudojimo atvejų ir vertybių tekstus (tai juodraštis, ne patvirtintas rinkodaros turinys);
 - įmonės rekvizitus (pavadinimas, kodas, adresas) poraštėje, jei jų reikia;
 - privatumo politikos nuorodą prie kontaktų formos.
