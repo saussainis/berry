@@ -13,6 +13,7 @@ Prieš publikuojant patikrinti / pakeisti:
 
 - kontaktinį el. paštą (`info@northstarpartners.eu`) – `index.html`, `script.js` (`CONTACT_EMAIL`);
 - LinkedIn nuorodą: dabar ji veda į LinkedIn paiešką „Algirdas Petrauskas“, reikia įrašyti tikslų profilio URL (`index.html`, 2 vietos, pažymėta `TODO`);
+- vadovo nuotrauką: įkelti `site/assets/algirdas-petrauskas.jpg` (kvadratinė, ~600×600 px); kol failo nėra, rodomi inicialai „AP“. Patikrinti trumpą aprašymą (LT/EN/DE);
 - paslaugų, panaudojimo atvejų ir vertybių tekstus (tai juodraštis, ne patvirtintas rinkodaros turinys);
 - įmonės rekvizitus (pavadinimas, kodas, adresas) poraštėje, jei jų reikia;
 - privatumo politikos nuorodą prie kontaktų formos.
